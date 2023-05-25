@@ -14,8 +14,18 @@
   }
 
   nav {
-    background-color: rgb(235, 126, 1);
-    display: inline;
+    display: inline-block;
+    font-family: 'Montserrat';
+    font-size: smaller;
+    background-color: rgb(248, 236, 174);
+    text-decoration: none;
+    width: 100%;
+    word-spacing: 15pt;
+    font-weight: bold;
+  }
+  a {
+    text-decoration: none;
+    color: black;
   }
  
   video {
@@ -119,10 +129,20 @@
     }
     
     nav {
-      background-color: rgb(247, 71, 7);
-      display: inline;
-    
+      display: inline-block;
+      font-family: 'Montserrat';
+      font-size: medium;
+      background-color: rgb(248, 137, 137);
+      text-decoration: none;
+      width: 100%;
+      word-spacing: 30pt;
+      font-weight: bold;
     }
+    a {
+      text-decoration: none;
+      color: black;
+    }
+    
     video {
       width: 500px;
       border: 5px solid rgb(247, 71, 7);
@@ -219,9 +239,18 @@
   }
   
   nav {
-    background-color: rgb(247, 71, 7);
-    display:inline;
-  
+    display: inline-block;
+    font-family: 'Montserrat';
+    font-size: medium;
+    background-color: rgb(255, 153, 117);
+    text-decoration: none;
+    width: 100%;
+    word-spacing: 30pt;
+    font-weight: bold;
+  }
+  a {
+    text-decoration: none;
+    color: black;
   }
   video {
     width: 500px;
@@ -312,4 +341,18 @@
   }
   footer {
     font-family: 'Montserrat' ;}
+    nav {
+      display: inline-block;
+      font-family: 'Montserrat';
+      font-size: medium;
+      background-color: rgb(255, 153, 117);
+      text-decoration: none;
+      width: 100%;
+      word-spacing: 30pt;
+      font-weight: bold;
+    }
+    a {
+      text-decoration: none;
+      color: black;
+    }
 }
